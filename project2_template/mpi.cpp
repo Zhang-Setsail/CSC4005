@@ -95,9 +95,12 @@ int main(int argc, char *argv[]) {
 	int y_array[X_RESN * Y_RESN];
 	float color_array[X_RESN * Y_RESN];
 	int pixels_per_process = (X_RESN * Y_RESN + world_size - 1) / world_size;
+	printf("TEST2\n");
 
 	float sub_color_array[pixels_per_process];
+	printf("TEST3\n");
 	float max_color_array[pixels_per_process * world_size];
+	printf("TEST1\n");
 
 	for (int i = 0; i < X_RESN; i++)
 	{
@@ -107,6 +110,7 @@ int main(int argc, char *argv[]) {
 			y_array[i * Y_RESN + j] = j;
 		}
 	}
+	printf("TEST4\n");
 	if (rank != world_size-1)
 	{
 		int start_point = rank * pixels_per_process;
@@ -136,72 +140,79 @@ int main(int argc, char *argv[]) {
 			MPI_Send(point_flag, 1, MPI_INT, 0, 2, MPI_COMM_WORLD);
 		}
 	}
-	MPI_Gather(void* send_data,int send_count,MPI_Datatype send_datatype,void* recv_data,int recv_count,MPI_Datatype recv_datatype,int root,MPI_Comm communicator);
+	printf("TEST5\n");
+	// MPI_Gather(void* send_data,int send_count,MPI_Datatype send_datatype,void* recv_data,int recv_count,MPI_Datatype recv_datatype,int root,MPI_Comm communicator);
+	MPI_Gather(sub_color_array, pixels_per_process, MPI_FLOAT, max_color_array, pixels_per_process, MPI_FLOAT, 0, MPI_COMM_WORLD);
 	// gather to max_color_array
+	printf("rank:%d,TEST6\n", rank);
+	initData();
+	printf("rank:%d,TEST6\n", rank);
 	if (rank == 0)
 	{
+		printf("TEST8\n");
 		Point* p = data;
+		printf("rank:%d,TEST11\n", rank);
 		for (int index = 0; index < X_RESN * Y_RESN; index++){
+			// printf("rank:%d,index:%d,TEST6\n", rank, index);
+			// printf("array:%d,TEST\n", x_array[index]);
 			p->x = x_array[index];
+			// printf("TEST10\n");
 			p->y = y_array[index];
-			p->color = max_color_array[i];
+			p->color = max_color_array[index];
 			p++;
 		}
+		printf("TEST9\n");
 	}
-	
-	
-	for (rank i = 0; i < count; i++)
-	{
-		/* code */
-	}
+	printf("rank:%d,TEST7\n", rank);
+
 	
 	
 
-	void *point_flag = &my_flag;
-	void *point_total_size = &total_pixel;
-	if (rank == 0) {
-		t1 = std::chrono::high_resolution_clock::now();
-		initData();
-		Point* p1 = data;
-		for (int i = 0; i < X_RESN*Y_RESN; i++)
-		{
-			x_array[i] = p1->x;
-			y_array[i] = p1->y;
-		}
+	// void *point_flag = &my_flag;
+	// void *point_total_size = &total_pixel;
+	// if (rank == 0) {
+	// 	t1 = std::chrono::high_resolution_clock::now();
+	// 	initData();
+	// 	Point* p1 = data;
+	// 	for (int i = 0; i < X_RESN*Y_RESN; i++)
+	// 	{
+	// 		x_array[i] = p1->x;
+	// 		y_array[i] = p1->y;
+	// 	}
 		
-		total_pixel = total_size;
-		printf("+++++%d, %d++++++\n", total_size, total_pixel);
+	// 	total_pixel = total_size;
+	// 	printf("+++++%d, %d++++++\n", total_size, total_pixel);
 
-		for (int i = 1; i < world_size; i++)
-		{
-			MPI_Send(point_total_size, 1, MPI_INT, i, 1, MPI_COMM_WORLD);
-		}
+	// 	for (int i = 1; i < world_size; i++)
+	// 	{
+	// 		MPI_Send(point_total_size, 1, MPI_INT, i, 1, MPI_COMM_WORLD);
+	// 	}
 		
-		master();
-		for (int i = 1; i < world_size; i++)
-		{
-			MPI_Recv(point_flag, 1, MPI_INT, i, 2, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-			// printf("%d/%d is over\n", my_flag, world_size);
-		}
+	// 	master();
+	// 	for (int i = 1; i < world_size; i++)
+	// 	{
+	// 		MPI_Recv(point_flag, 1, MPI_INT, i, 2, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+	// 		// printf("%d/%d is over\n", my_flag, world_size);
+	// 	}
 
-		t2 = std::chrono::high_resolution_clock::now();  
-		time_span = t2 - t1;
+	// 	t2 = std::chrono::high_resolution_clock::now();  
+	// 	time_span = t2 - t1;
 
-		printf("Student ID: 119010001\n"); // replace it with your student id
-		printf("Name: Your Name\n"); // replace it with your name
-		printf("Assignment 2 MPI\n");
-		printf("Run Time: %f seconds\n", time_span.count());
-		printf("Problem Size: %d * %d, %d\n", X_RESN, Y_RESN, max_iteration);
-		printf("Process Number: %d\n", world_size);
+	// 	printf("Student ID: 119010001\n"); // replace it with your student id
+	// 	printf("Name: Your Name\n"); // replace it with your name
+	// 	printf("Assignment 2 MPI\n");
+	// 	printf("Run Time: %f seconds\n", time_span.count());
+	// 	printf("Problem Size: %d * %d, %d\n", X_RESN, Y_RESN, max_iteration);
+	// 	printf("Process Number: %d\n", world_size);
 		
-	} else {
-		MPI_Recv(point_total_size, 1, MPI_INT, 0, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-		printf("))))))))%d\n", total_pixel);
-		slave(total_pixel);
-		my_flag = rank; //slave compute over!
-		MPI_Send(point_flag, 1, MPI_INT, 0, 2, MPI_COMM_WORLD);
-	}
-	printf("%d,%d , rank:%d\n", total_size,total_pixel, rank);
+	// } else {
+	// 	MPI_Recv(point_total_size, 1, MPI_INT, 0, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+	// 	printf("))))))))%d\n", total_pixel);
+	// 	slave(total_pixel);
+	// 	my_flag = rank; //slave compute over!
+	// 	MPI_Send(point_flag, 1, MPI_INT, 0, 2, MPI_COMM_WORLD);
+	// }
+	// printf("%d,%d , rank:%d\n", total_size,total_pixel, rank);
 
 
 	if (rank == 0) {
