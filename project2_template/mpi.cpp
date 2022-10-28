@@ -57,6 +57,8 @@ int main(int argc, char *argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);
 
+	int max_compute_per_p = total_size / world_size + 1;
+
 	if (rank == 0) {
 		t1 = std::chrono::high_resolution_clock::now();
 
