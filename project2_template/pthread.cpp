@@ -16,10 +16,25 @@ void* worker(void* args) {
     //TODO: procedure in each threads
     // the code following is not a necessary, you can replace it.
     
-    // Args* my_arg = (Args*) args;
-    // int a = my_arg->a;
-    // int b = my_arg->b;
+    Args* my_arg = (Args*) args;
+    int a = my_arg->a; //现在所处的thread
+    int b = my_arg->b; //thread的数量
 
+    int max_compute_per_p = (total_size + b - 1) / b;
+
+    Point* p = data;
+	for (int i = 0; i < a; i++)
+	{
+		p++;
+	}
+	for (int i = a; i < total_size; i = i + b)
+	{
+		compute(p);
+		for (int j = 0; j < b; j++)
+		{
+			p++;
+		}
+	}
     //TODO END
 
 }
