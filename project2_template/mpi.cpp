@@ -85,22 +85,27 @@ int main(int argc, char *argv[]) {
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);
 
 	int my_flag;
-	int total_pixel;
+	// int total_pixel;
+	if (rank == 0)
+	{
+		t1 = std::chrono::high_resolution_clock::now();
+	}
+	
 
 	void *point_flag = &my_flag;
 
-	printf("X:%d\n",X_RESN);
-	printf("%d\n",max_iteration);
+	// printf("X:%d\n",X_RESN);
+	// printf("%d\n",max_iteration);
 	int x_array[X_RESN * Y_RESN];
 	int y_array[X_RESN * Y_RESN];
-	float color_array[X_RESN * Y_RESN];
+	// float color_array[X_RESN * Y_RESN];
 	int pixels_per_process = (X_RESN * Y_RESN + world_size - 1) / world_size;
-	printf("TEST2\n");
+	// printf("TEST2\n");
 
 	float sub_color_array[pixels_per_process];
-	printf("TEST3\n");
+	// printf("TEST3\n");
 	float max_color_array[pixels_per_process * world_size];
-	printf("TEST1\n");
+	// printf("TEST1\n");
 
 	for (int i = 0; i < X_RESN; i++)
 	{
@@ -110,7 +115,7 @@ int main(int argc, char *argv[]) {
 			y_array[i * Y_RESN + j] = j;
 		}
 	}
-	printf("TEST4\n");
+	// printf("TEST4\n");
 	if (rank != world_size-1)
 	{
 		int start_point = rank * pixels_per_process;
@@ -140,18 +145,18 @@ int main(int argc, char *argv[]) {
 			MPI_Send(point_flag, 1, MPI_INT, 0, 2, MPI_COMM_WORLD);
 		}
 	}
-	printf("TEST5\n");
+	// printf("TEST5\n");
 	// MPI_Gather(void* send_data,int send_count,MPI_Datatype send_datatype,void* recv_data,int recv_count,MPI_Datatype recv_datatype,int root,MPI_Comm communicator);
 	MPI_Gather(sub_color_array, pixels_per_process, MPI_FLOAT, max_color_array, pixels_per_process, MPI_FLOAT, 0, MPI_COMM_WORLD);
 	// gather to max_color_array
-	printf("rank:%d,TEST6\n", rank);
+	// printf("rank:%d,TEST6\n", rank);
 	initData();
-	printf("rank:%d,TEST6\n", rank);
+	// printf("rank:%d,TEST6\n", rank);
 	if (rank == 0)
 	{
-		printf("TEST8\n");
+		// printf("TEST8\n");
 		Point* p = data;
-		printf("rank:%d,TEST11\n", rank);
+		// printf("rank:%d,TEST11\n", rank);
 		for (int index = 0; index < X_RESN * Y_RESN; index++){
 			// printf("rank:%d,index:%d,TEST6\n", rank, index);
 			// printf("array:%d,TEST\n", x_array[index]);
@@ -161,9 +166,23 @@ int main(int argc, char *argv[]) {
 			p->color = max_color_array[index];
 			p++;
 		}
-		printf("TEST9\n");
+		// printf("TEST9\n");
 	}
-	printf("rank:%d,TEST7\n", rank);
+
+	if (rank == 0)
+	{
+		t2 = std::chrono::high_resolution_clock::now();  
+		time_span = t2 - t1;
+
+		printf("Student ID: 119010434\n"); // replace it with your student id
+		printf("Name: Zhang Qihang\n"); // replace it with your name
+		printf("Assignment 2 MPI\n");
+		printf("Run Time: %f seconds\n", time_span.count());
+		printf("Problem Size: %d * %d, %d\n", X_RESN, Y_RESN, max_iteration);
+		printf("Process Number: %d\n", world_size);
+	}
+	
+	// printf("rank:%d,TEST7\n", rank);
 
 	
 	
