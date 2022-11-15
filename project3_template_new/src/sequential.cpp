@@ -31,12 +31,45 @@ void generate_data(double *m, double *x,double *y,double *vx,double *vy, int n) 
 
 void update_position(double *x, double *y, double *vx, double *vy, int n) {
     //TODO: update position 
-
+    double movement_x, movement_y;
+    for (int i = 0; i < n; i++)
+    {
+        x[i] = x[i] + vx[i] * dt;
+        y[i] = y[i] + vy[i] * dt;
+    }
 }
 
 void update_velocity(double *m, double *x, double *y, double *vx, double *vy, int n) {
     //TODO: calculate force and acceleration, update velocity
-
+    for (int i = 0; i < n; i++)
+    {
+        double acceleration = 0;
+        double acceleration_x = 0;
+        double acceleration_y = 0;
+        double x_proj, y_proj, xy_distance_pow;
+        for (int j = 0; j < n; j++)
+        {
+            xy_distance_pow = pow(x[i] - x[j], 2.) + pow(y[i] - y[j], 2.);
+            if (xy_distance_pow < radius2)
+            {
+                vx[i] = -vx[i];
+                vy[i] = -vy[i];
+                acceleration_x = 0;
+                acceleration_y = 0;
+                break;
+            }
+            else
+            {
+                x_proj = pow(pow(x[i] - x[j], 2.) / xy_distance_pow, 0.5);
+                y_proj = pow(pow(y[i] - y[j], 2.) / xy_distance_pow, 0.5);
+                acceleration = gravity_const * m[j] / (xy_distance_pow + err);
+                acceleration_x = acceleration_x + acceleration * x_proj;
+                acceleration_y = acceleration_y + acceleration * y_proj;
+            }
+        }
+        vx[i] = vx[i] + acceleration_x * dt;
+        vy[i] = vy[i] + acceleration_y * dt;
+    }
 }
 
 
@@ -109,9 +142,9 @@ int main(int argc, char *argv[]){
     #endif
     master();
 
-    printf("Student ID: 119010001\n"); // replace it with your student id
-    printf("Name: Your Name\n"); // replace it with your name
-    printf("Assignment 2: N Body Simulation Sequential Implementation\n");
+    printf("Student ID: 119010434\n"); // replace it with your student id
+    printf("Name: Zhang Qihang\n"); // replace it with your name
+    printf("Assignment 3: N Body Simulation Sequential Implementation\n");
     
     return 0;
 
