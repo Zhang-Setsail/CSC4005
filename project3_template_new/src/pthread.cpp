@@ -18,6 +18,12 @@ int n_thd; // number of threads
 int n_body;
 int n_iteration;
 
+double* m = new double[n_body];
+double* x = new double[n_body];
+double* y = new double[n_body];
+double* vx = new double[n_body];
+double* vy = new double[n_body];
+
 
 void generate_data(double *m, double *x,double *y,double *vx,double *vy, int n) {
     // TODO: Generate proper initial position and mass for better visualization
@@ -33,21 +39,75 @@ void generate_data(double *m, double *x,double *y,double *vx,double *vy, int n) 
 
 
 
-void update_position(double *x, double *y, double *vx, double *vy, int n) {
+void update_position(double *x, double *y, double *vx, double *vy, int n, int index) {
     //TODO: update position 
-
+    x[index] = x[index] + vx[index] * dt;
+    y[index] = y[index] + vy[index] * dt;
 }
 
-void update_velocity(double *m, double *x, double *y, double *vx, double *vy, int n) {
+void update_velocity(double *m, double *x, double *y, double *vx, double *vy, int n, int index) {
     //TODO: calculate force and acceleration, update velocity
-
+    double acceleration = 0;
+    double acceleration_x = 0;
+    double acceleration_y = 0;
+    // double origin_vx, origin_vy;
+    double x_proj, y_proj, xy_distance_pow;
+    // printf("This is pthread %d\n", n);
+    if (x[index] > bound_x || x[index] < 0. || y[index] > bound_y || y[index] < 0.)
+    {
+        vx[index] = -vx[index];
+        vy[index] = -vy[index];
+    }
+    for (int j = 0; j < n; j++)
+    {
+        if (index != j)
+        {
+            xy_distance_pow = pow(x[index] - x[j], 2.) + pow(y[index] - y[j], 2.);
+            // xy_distance_pow = (x[i] - x[j]) * (x[i] - x[j]) + (y[i] - y[j]) * (y[i] - y[j]);
+            // printf("ans111:%f,\n", pow(x[i] - x[j], 2.));
+            // printf("ans2:%f,\n", pow(y[i] - y[j], 2.));
+            // printf("xi:%f, xj:%f, yi:%f, yj:%f\n", x[i], x[j], y[i], y[j]);
+            // printf("xy_dis:%f,\n", xy_distance_pow);
+            if (xy_distance_pow < 1000 * radius2)
+            {
+                vx[index] = -vx[index];
+                vy[index] = -vy[index];
+                acceleration_x = 0;
+                acceleration_y = 0;
+                break;
+            }
+            else
+            {
+                x_proj = pow(pow(x[index] - x[j], 2.) / xy_distance_pow, 0.5);
+                y_proj = pow(pow(y[index] - y[j], 2.) / xy_distance_pow, 0.5);
+                acceleration = gravity_const * m[j] / (xy_distance_pow + err);
+                // printf("acc:%f, xP:%f, yP:%f\n", acceleration, x_proj, y_proj);
+                if (x[index] < x[j])
+                {
+                    acceleration_x = acceleration_x + acceleration * x_proj;
+                } else {
+                    acceleration_x = acceleration_x - acceleration * x_proj;
+                }
+                if (y[index] < y[j])
+                {
+                    acceleration_y = acceleration_y + acceleration * y_proj;
+                } else {
+                    acceleration_y = acceleration_y - acceleration * y_proj;
+                }
+            }
+        }
+    }
+    // printf("acc_X:%f, acc_Y%f\n", acceleration_x, acceleration_y);
+    vx[index] = vx[index] + acceleration_x * dt;
+    vy[index] = vy[index] + acceleration_y * dt;
+    // printf("v_X:%f, v_Y%f\n\n", vx[i], vy[i]);
 }
 
 
 typedef struct {
     //TODO: specify your arguments for threads
-    //int a;
-    //int b;
+    int a;
+    int b;
     //TODO END
 } Args;
 
@@ -55,20 +115,24 @@ typedef struct {
 void* worker(void* args) {
     //TODO: procedure in each threads
 
-    // Args* my_arg = (Args*) args;
-    // int a = my_arg->a;
-    // int b = my_arg->b;
+    Args* my_arg = (Args*) args;
+    int a = my_arg->a; //现在所处的thread
+    int b = my_arg->b; //thread的数量
+    // printf("This is pthread %d/%d\n", a, b);
+    for (int i = a; i < n_body; i = i + b)
+    {
+        // printf("This is pthread %d\n", i);
+        // printf("This is pthread %d/%d, current body:%d/%d\n", a, b, i, n_body);
+        update_velocity(m, x, y, vx, vy, n_body, i);
+        update_position(x, y, vx, vy, n_body, i);
+    }
+    
 
     // TODO END
 }
 
 
 void master(){
-    double* m = new double[n_body];
-    double* x = new double[n_body];
-    double* y = new double[n_body];
-    double* vx = new double[n_body];
-    double* vy = new double[n_body];
 
     generate_data(m, x, y, vx, vy, n_body);
 
@@ -77,6 +141,16 @@ void master(){
     for (int i = 0; i < n_iteration; i++){
         std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
         //TODO: assign jobs
+        //TODO: assign jobs
+        pthread_t thds[n_thd]; // thread pool
+        Args args[n_thd]; // arguments for all threads
+        for (int thd = 0; thd < n_thd; thd++){
+            args[thd].a = thd;
+            args[thd].b = n_thd;
+        }
+        for (int thd = 0; thd < n_thd; thd++) pthread_create(&thds[thd], NULL, worker, &args[thd]);
+        for (int thd = 0; thd < n_thd; thd++) pthread_join(thds[thd], NULL);
+        //TODO END
         
         //TODO End
 
@@ -96,8 +170,11 @@ void master(){
         double yi;
         for (int i = 0; i < n_body; i++){
             xi = x[i];
+            // xi = 2000.;
             yi = y[i];
+            // yi = 2000.;
             glVertex2f(xi, yi);
+            // printf("xi:%f, yi:%f, body:%d\n", xi, yi, i);
         }
         glEnd();
         glFlush();
