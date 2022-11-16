@@ -1,0 +1,6 @@
+./checkpoints/sequential_100_20221116022826/
+directory creation success
+/var/spool/slurmd/job34087/slurm_script: line 9: 149496 Segmentation fault      (core dumped) ./pthread 100 100 4
+./checkpoints/sequential_1000_20221116022826/
+directory creation success
+/var/spool/slurmd/job34087/slurm_script: line 10: 149502 Segmentation fault      (core dumped) ./pthread 1000 100 4

@@ -1,0 +1,1423 @@
+TASK is start
+!Generate is start
+!Generate is over
+!logger is start
+!./checkpoints/sequential_100_20221116030940/
+path is over
+!dir is start
+!fault is start
+!fault is start
+!dir is over
+!logger is over
+!Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 0, elapsed time: 0.002
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 1, elapsed time: 0.002
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 2, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 3, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 4, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 5, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 6, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 7, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 8, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 9, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 10, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 11, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 12, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 13, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 14, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 15, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 16, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 17, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 18, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 19, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 20, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 21, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 22, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 23, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 24, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 25, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 26, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 27, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 28, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 29, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 30, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 31, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 32, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 33, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 34, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 35, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 36, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 37, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 38, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 39, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 40, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 41, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 42, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 43, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 44, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 45, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 46, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 47, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 48, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 49, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 50, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 51, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 52, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 53, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 54, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 55, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 56, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 57, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 58, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 59, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 60, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 61, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 62, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 63, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 64, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 65, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 66, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 67, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 68, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 69, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 70, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 71, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 72, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 73, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 74, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 75, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 76, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 77, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 78, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 79, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 80, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 81, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 82, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 83, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 84, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 85, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 86, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 87, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 88, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 89, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 90, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 91, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 92, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 93, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 94, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 95, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 96, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 97, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 98, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 99, elapsed time: 0.001
+./checkpoints/sequential_100_20221116030940/
+TASK is over!TASK is start
+!Generate is start
+!Generate is over
+!logger is start
+!./checkpoints/sequential_1000_20221116030941/
+path is over
+!dir is start
+!fault is start
+!fault is start
+!dir is over
+!logger is over
+!Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 0, elapsed time: 0.054
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 1, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 2, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 3, elapsed time: 0.050
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 4, elapsed time: 0.054
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 5, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 6, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 7, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 8, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 9, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 10, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 11, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 12, elapsed time: 0.045
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 13, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 14, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 15, elapsed time: 0.046
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 16, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 17, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 18, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 19, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 20, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 21, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 22, elapsed time: 0.045
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 23, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 24, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 25, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 26, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 27, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 28, elapsed time: 0.046
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 29, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 30, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 31, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 32, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 33, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 34, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 35, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 36, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 37, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 38, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 39, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 40, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 41, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 42, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 43, elapsed time: 0.045
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 44, elapsed time: 0.051
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 45, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 46, elapsed time: 0.050
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 47, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 48, elapsed time: 0.046
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 49, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 50, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 51, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 52, elapsed time: 0.046
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 53, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 54, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 55, elapsed time: 0.046
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 56, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 57, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 58, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 59, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 60, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 61, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 62, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 63, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 64, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 65, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 66, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 67, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 68, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 69, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 70, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 71, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 72, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 73, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 74, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 75, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 76, elapsed time: 0.056
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 77, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 78, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 79, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 80, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 81, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 82, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 83, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 84, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 85, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 86, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 87, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 88, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 89, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 90, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 91, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 92, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 93, elapsed time: 0.048
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 94, elapsed time: 0.056
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 95, elapsed time: 0.054
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 96, elapsed time: 0.052
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 97, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 98, elapsed time: 0.047
+./checkpoints/sequential_1000_20221116030941/
+Assign is start
+!Assign is over
+!Work is start
+!Join is start
+!Work is over
+!Iteration 99, elapsed time: 0.049
+./checkpoints/sequential_1000_20221116030941/
+TASK is over!

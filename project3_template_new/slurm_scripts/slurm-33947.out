@@ -1,0 +1,2 @@
+/var/spool/slurmd/job33947/slurm_script: line 8: cd: /nfsmnt/119010355/CSC4005_2022Fall_Demo/project3_template/: Permission denied
+/var/spool/slurmd/job33947/slurm_script: line 9: ./pthread: No such file or directory

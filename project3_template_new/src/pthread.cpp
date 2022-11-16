@@ -18,11 +18,11 @@ int n_thd; // number of threads
 int n_body;
 int n_iteration;
 
-double* m = new double[n_body];
-double* x = new double[n_body];
-double* y = new double[n_body];
-double* vx = new double[n_body];
-double* vy = new double[n_body];
+// double* m = new double[n_body];
+// double* x = new double[n_body];
+// double* y = new double[n_body];
+// double* vx = new double[n_body];
+// double* vy = new double[n_body];
 
 
 void generate_data(double *m, double *x,double *y,double *vx,double *vy, int n) {
@@ -108,6 +108,11 @@ typedef struct {
     //TODO: specify your arguments for threads
     int a;
     int b;
+    double* m_s = new double[n_body];
+    double* x_s = new double[n_body];
+    double* y_s = new double[n_body];
+    double* vx_s = new double[n_body];
+    double* vy_s = new double[n_body];
     //TODO END
 } Args;
 
@@ -118,6 +123,11 @@ void* worker(void* args) {
     Args* my_arg = (Args*) args;
     int a = my_arg->a; //现在所处的thread
     int b = my_arg->b; //thread的数量
+    double* m = my_arg->m_s;
+    double* x = my_arg->x_s;
+    double* y = my_arg->y_s;
+    double* vx = my_arg->vx_s;
+    double* vy = my_arg->vy_s;
     // printf("This is pthread %d/%d\n", a, b);
     for (int i = a; i < n_body; i = i + b)
     {
@@ -133,23 +143,40 @@ void* worker(void* args) {
 
 
 void master(){
+    double* m = new double[n_body];
+    double* x = new double[n_body];
+    double* y = new double[n_body];
+    double* vx = new double[n_body];
+    double* vy = new double[n_body];
 
+    // printf("Generate is start\n!");
     generate_data(m, x, y, vx, vy, n_body);
-
+    // printf("Generate is over\n!");
+    // printf("logger is start\n!");
     Logger l = Logger("sequential", n_body, bound_x, bound_y);
-
+    // printf("logger is over\n!");
     for (int i = 0; i < n_iteration; i++){
         std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
         //TODO: assign jobs
         //TODO: assign jobs
+        // printf("Assign is start\n!");
         pthread_t thds[n_thd]; // thread pool
         Args args[n_thd]; // arguments for all threads
         for (int thd = 0; thd < n_thd; thd++){
             args[thd].a = thd;
             args[thd].b = n_thd;
+            args[thd].m_s = m;
+            args[thd].x_s = x;
+            args[thd].y_s = y;
+            args[thd].vx_s = vx;
+            args[thd].vy_s = vy;
         }
+        // printf("Assign is over\n!");
+        // printf("Work is start\n!");
         for (int thd = 0; thd < n_thd; thd++) pthread_create(&thds[thd], NULL, worker, &args[thd]);
+        // printf("Join is start\n!");
         for (int thd = 0; thd < n_thd; thd++) pthread_join(thds[thd], NULL);
+        // printf("Work is over\n!");
         //TODO END
         
         //TODO End
@@ -184,11 +211,11 @@ void master(){
         #endif
     }
 
-    delete[] m;
-    delete[] x;
-    delete[] y;
-    delete[] vx;
-    delete[] vy;
+    // delete[] m;
+    // delete[] x;
+    // delete[] y;
+    // delete[] vx;
+    // delete[] vy;
 
 
 }
@@ -198,6 +225,7 @@ int main(int argc, char *argv[]) {
     n_body = atoi(argv[1]);
     n_iteration = atoi(argv[2]);
     n_thd = atoi(argv[3]);
+    // printf("TASK is start\n!");
 
     #ifdef GUI
 	glutInit(&argc, argv);
@@ -210,6 +238,7 @@ int main(int argc, char *argv[]) {
 	gluOrtho2D(0, bound_x, 0, bound_y);
     #endif
     master();
+    printf("TASK is over!");
 
 	return 0;
 }

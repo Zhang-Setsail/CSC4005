@@ -1,0 +1,12 @@
+TASK is start
+!Generate is start
+!Generate is over
+!./checkpoints/sequential_100_20221116023418/
+directory creation success
+/var/spool/slurmd/job34216/slurm_script: line 9: 27918 Segmentation fault      (core dumped) ./pthread 100 100 4
+TASK is start
+!Generate is start
+!Generate is over
+!./checkpoints/sequential_1000_20221116023418/
+directory creation success
+/var/spool/slurmd/job34216/slurm_script: line 10: 27924 Segmentation fault      (core dumped) ./pthread 1000 100 4

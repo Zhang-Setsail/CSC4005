@@ -1,0 +1,12 @@
+TASK is start
+!Generate is start
+!Generate is over
+!logger is start
+!./checkpoints/sequential_100_20221116024156/
+/var/spool/slurmd/job34331/slurm_script: line 9: 38739 Segmentation fault      (core dumped) ./pthread 100 100 4
+TASK is start
+!Generate is start
+!Generate is over
+!logger is start
+!./checkpoints/sequential_1000_20221116024156/
+/var/spool/slurmd/job34331/slurm_script: line 10: 38745 Segmentation fault      (core dumped) ./pthread 1000 100 4
