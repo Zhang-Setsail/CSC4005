@@ -6,10 +6,39 @@
 #SBATCH --partition=Project            # Partition name: Project or Debug (Debug is default)
 
 cd /nfsmnt/119010434/ass2/CSC4005/project3_template_new/
-# ./pthread 100 100 4
-./pthread 1000 1000 40
-# ./pthread 1000 100 20
-# ./pthread 1000 100 40
-# ./pthread 1000 100 80
-# ./pthread 1000 100 120
-# ./pthread 1000 100 200
+
+./pthread 100 10 4
+./pthread 1000 10 4
+./pthread 10000 10 4
+
+./pthread 100 10 8
+./pthread 1000 10 8
+./pthread 10000 10 8
+
+./pthread 100 10 12
+./pthread 1000 10 12
+./pthread 10000 10 12
+
+./pthread 100 10 16
+./pthread 1000 10 16
+./pthread 10000 10 16
+
+./pthread 100 10 20
+./pthread 1000 10 20
+./pthread 10000 10 20
+
+./pthread 100 10 24
+./pthread 1000 10 24
+./pthread 10000 10 24
+
+./pthread 100 10 28
+./pthread 1000 10 28
+./pthread 10000 10 28
+
+./pthread 100 10 32
+./pthread 1000 10 32
+./pthread 10000 10 32
+
+./pthread 100 10 36
+./pthread 1000 10 36
+./pthread 10000 10 36

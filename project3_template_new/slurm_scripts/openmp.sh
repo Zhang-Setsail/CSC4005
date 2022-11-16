@@ -5,10 +5,40 @@
 #SBATCH --cpus-per-task=20      # Number of CPU cores allocated to each process
 #SBATCH --partition=Project            # Partition name: Project or Debug (Debug is default)
 
-cd /nfsmnt/119010355/CSC4005_2022Fall_Demo/project3_template/
-./openmp 1000 100 4
-./openmp 1000 100 20
-./openmp 1000 100 40
-./openmp 1000 100 80
-./openmp 1000 100 120
-./openmp 1000 100 200
+cd /nfsmnt/119010434/ass2/CSC4005/project3_template_new/
+
+./openmp 100 10 4
+./openmp 1000 10 4
+./openmp 10000 10 4
+
+./openmp 100 10 8
+./openmp 1000 10 8
+./openmp 10000 10 8
+
+./openmp 100 10 12
+./openmp 1000 10 12
+./openmp 10000 10 12
+
+./openmp 100 10 16
+./openmp 1000 10 16
+./openmp 10000 10 16
+
+./openmp 100 10 20
+./openmp 1000 10 20
+./openmp 10000 10 20
+
+./openmp 100 10 24
+./openmp 1000 10 24
+./openmp 10000 10 24
+
+./openmp 100 10 28
+./openmp 1000 10 28
+./openmp 10000 10 28
+
+./openmp 100 10 32
+./openmp 1000 10 32
+./openmp 10000 10 32
+
+./openmp 100 10 36
+./openmp 1000 10 36
+./openmp 10000 10 36

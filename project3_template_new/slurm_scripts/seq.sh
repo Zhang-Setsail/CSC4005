@@ -6,4 +6,6 @@
 #SBATCH --partition=Project            # Partition name: Project or Debug (Debug is default)
 
 cd /nfsmnt/119010434/ass2/CSC4005/project3_template_new
-./seq 1000 100
+./seq 100 10
+./seq 1000 10
+./seq 10000 10

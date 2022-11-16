@@ -12,6 +12,9 @@
 ## You can compile your codes out of the script and simply srun the executable file.
 cd /nfsmnt/119010434/ass2/CSC4005/project3_template_new/
 ## Run the script
-./cuda 200 50000
+./cuda 100 10
+./cuda 1000 10
+./cuda 10000 10
+./cuda 100000 10
 # ./cuda 10000 100
 # ./cuda 10000 100
