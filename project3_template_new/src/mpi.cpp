@@ -21,6 +21,8 @@ int n_iteration;
 int my_rank;
 int world_size;
 
+std::chrono::high_resolution_clock::time_point t1,t2;
+
 
 void generate_data(double *m, double *x,double *y,double *vx,double *vy, int n) {
     // TODO: Generate proper initial position and mass for better visualization
@@ -37,82 +39,64 @@ void generate_data(double *m, double *x,double *y,double *vx,double *vy, int n) 
 
 void update_position(double *x, double *y, double *vx, double *vy, int n) {
     //TODO: update position 
-
-}
-
-
-void update_velocity(double *m, double *x, double *y, double *vx, double *vy, int n) {
-    //TODO: calculate force and acceleration, update velocity
-
-}
-
-
-void slave(){
-    // TODO: MPI routine
-    double* local_m;
-    double* local_x;
-    double* local_y;
-    double* local_vx;
-    double* local_vy;
-    // TODO End
-}
-
-
-
-void master() {
-    double* total_m = new double[n_body];
-    double* total_x = new double[n_body];
-    double* total_y = new double[n_body];
-    double* total_vx = new double[n_body];
-    double* total_vy = new double[n_body];
-
-    generate_data(total_m, total_x, total_y, total_vx, total_vy, n_body);
-
-    Logger l = Logger("sequential", n_body, bound_x, bound_y);
-
-    for (int i = 0; i < n_iteration; i++){
-        std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
-
-        // TODO: MPI routine
-        
-        // TODO End
-
-        std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
-        std::chrono::duration<double> time_span = t2 - t1;
-
-        printf("Iteration %d, elapsed time: %.8f\n", i, time_span);
-
-        l.save_frame(total_x, total_y);
-
-        #ifdef GUI
-        glClear(GL_COLOR_BUFFER_BIT);
-        glColor3f(1.0f, 0.0f, 0.0f);
-        glPointSize(2.0f);
-        glBegin(GL_POINTS);
-        double xi;
-        double yi;
-        for (int i = 0; i < n_body; i++){
-            xi = total_x[i];
-            yi = total_y[i];
-            glVertex2f(xi, yi);
-        }
-        glEnd();
-        glFlush();
-        glutSwapBuffers();
-        #else
-
-        #endif
+    for (int i = 0; i < n; i++)
+    {
+        x[i] = x[i] + vx[i] * dt;
+        y[i] = y[i] + vy[i] * dt;
     }
-
-    delete[] total_m;
-    delete[] total_x;
-    delete[] total_y;
-    delete[] total_vx;
-    delete[] total_vy;
-
 }
 
 
+void update_velocity(double *m, double *x, double *y,double *x_total, double *y_total, double *vx, double *vy, int n) {
+    //TODO: calculate force and acceleration, update velocity
+    for (int i = 0; i < n; i++)
+    {
+        double acceleration = 0;
+        double acceleration_x = 0;
+        double acceleration_y = 0;
+        double x_proj, y_proj, xy_distance_pow;
+        if (x[i] > bound_x || x[i] < 0. || y[i] > bound_y || y[i] < 0.)
+        {
+            vx[i] = -vx[i];
+            vy[i] = -vy[i];
+        }
+        for (int j = 0; j < n*world_size; j++)
+        {
+            if (i != j)
+            {
+                xy_distance_pow = pow(x[i] - x_total[j], 2.) + pow(y[i] - y_total[j], 2.);
+                if (xy_distance_pow < 1000 * radius2)
+                {
+                    vx[i] = -vx[i];
+                    vy[i] = -vy[i];
+                    acceleration_x = 0;
+                    acceleration_y = 0;
+                    break;
+                }
+                else
+                {
+                    x_proj = pow(pow(x[i] - x_total[j], 2.) / xy_distance_pow, 0.5);
+                    y_proj = pow(pow(y[i] - y_total[j], 2.) / xy_distance_pow, 0.5);
+                    acceleration = gravity_const * m[j] / (xy_distance_pow + err);
+                    if (x[i] < x_total[j])
+                    {
+                        acceleration_x = acceleration_x + acceleration * x_proj;
+                    } else {
+                        acceleration_x = acceleration_x - acceleration * x_proj;
+                    }
+                    if (y[i] < y_total[j])
+                    {
+                        acceleration_y = acceleration_y + acceleration * y_proj;
+                    } else {
+                        acceleration_y = acceleration_y - acceleration * y_proj;
+                    }
+                }
+            }
+        }
+        vx[i] = vx[i] + acceleration_x * dt;
+        vy[i] = vy[i] + acceleration_y * dt;
+    }
+}
 
 
 int main(int argc, char *argv[]) {
@@ -122,6 +106,79 @@ int main(int argc, char *argv[]) {
 	MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);
+
+    int n_ture;
+    if (n_body % world_size != 0)
+    {
+        n_ture = n_body + world_size - (n_body % world_size);
+    }
+    else {
+        n_ture = n_body;
+    }
+    int point_per_process = n_ture / world_size;
+
+    double* m = new double[n_ture];
+    double* x = new double[n_ture];
+    double* y = new double[n_ture];
+    double* vx = new double[n_ture];
+    double* vy = new double[n_ture];
+    Logger l = Logger("mpi", n_body, bound_x, bound_y);
+    if (my_rank == 0)
+    {
+        generate_data(m, x, y, vx, vy, n_ture);
+    }
+    double* local_m = new double[point_per_process];
+    double* local_x = new double[point_per_process];
+    double* local_y = new double[point_per_process];
+    double* local_vx = new double[point_per_process];
+    double* local_vy = new double[point_per_process];
+    MPI_Scatter(vx, point_per_process, MPI_DOUBLE, local_vx, point_per_process, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Scatter(vy, point_per_process, MPI_DOUBLE, local_vy, point_per_process, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Scatter(x, point_per_process, MPI_DOUBLE, local_x, point_per_process, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Scatter(y, point_per_process, MPI_DOUBLE, local_y, point_per_process, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Scatter(m, point_per_process, MPI_DOUBLE, local_m, point_per_process, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Bcast(m, n_ture, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Barrier(MPI_COMM_WORLD);
+
+    for (int i = 0; i < n_iteration; i++)
+    {
+        if (my_rank == 0)
+        {
+            t1 = std::chrono::high_resolution_clock::now();
+
+            // std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
+            // std::chrono::duration<double> time_span = t2 - t1;
+        }
+
+        MPI_Bcast(x, n_ture, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+        MPI_Bcast(y, n_ture, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
+        update_velocity(m, local_x, local_y, x, y, local_vx, local_vy, point_per_process);
+        MPI_Barrier(MPI_COMM_WORLD);
+        update_position(local_x, local_y, local_vx, local_vy, point_per_process);
+        MPI_Barrier(MPI_COMM_WORLD);
+        
+        MPI_Gather(local_x, point_per_process, MPI_DOUBLE, x, point_per_process, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+        MPI_Gather(local_y, point_per_process, MPI_DOUBLE, y, point_per_process, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
+
+        if (my_rank == 0)
+        {
+            t2 = std::chrono::high_resolution_clock::now();
+            std::chrono::duration<double> time_span = t2 - t1;
+            printf("Iteration %d, elapsed time: %.8f\n", i, time_span);
+            l.save_frame(x, y);
+        }
+        
+        MPI_Barrier(MPI_COMM_WORLD);
+    }
+    
+
+
+
+    
+
+    
 
 	if (my_rank == 0) {
 		#ifdef GUI
@@ -134,9 +191,9 @@ int main(int argc, char *argv[]) {
 		glMatrixMode(GL_PROJECTION);
 		gluOrtho2D(0, bound_x, 0, bound_y);
 		#endif
-        master();
+        // master();
 	} else {
-        slave();
+        // slave();
     }
 
 	if (my_rank == 0){

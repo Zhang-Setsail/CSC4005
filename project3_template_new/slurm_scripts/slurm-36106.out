@@ -1,0 +1,87 @@
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+
+./checkpoints/mpi_100000_20221116092813/./checkpoints/mpi_100000_20221116092813/
+
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/
+./checkpoints/mpi_100000_20221116092813/./checkpoints/mpi_100000_20221116092813/
+
+./checkpoints/mpi_100000_20221116092813/directory creation success
+
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+directory creation failed
+Iteration 0, elapsed time: 35.87211263
+./checkpoints/mpi_100000_20221116092813/
+Iteration 1, elapsed time: 34.69704478
+./checkpoints/mpi_100000_20221116092813/
+Iteration 2, elapsed time: 34.95272557
+./checkpoints/mpi_100000_20221116092813/
+Iteration 3, elapsed time: 35.73554434
+./checkpoints/mpi_100000_20221116092813/
+Iteration 4, elapsed time: 35.30913417
+./checkpoints/mpi_100000_20221116092813/
+Student ID: 119010434
+Name: Zhang Qihang
+Assignment 3: N Body Simulation MPI Implementation
+./checkpoints/cuda_100000_20221116093114/
+directory creation success
+Iteration 0, elapsed time: 43.93279684
+./checkpoints/cuda_100000_20221116093114/
+Iteration 1, elapsed time: 40.91987037
+./checkpoints/cuda_100000_20221116093114/
+Iteration 2, elapsed time: 35.15639707
+./checkpoints/cuda_100000_20221116093114/
+Iteration 3, elapsed time: 34.84692121
+./checkpoints/cuda_100000_20221116093114/
+Iteration 4, elapsed time: 35.22930121
+./checkpoints/cuda_100000_20221116093114/
+EXECUTE END!Student ID: 119010434
+Name: Zhang Qihang
+Assignment 3: N Body Simulation CUDA Implementation
+./checkpoints/sequential_100000_20221116093427/
+directory creation success
+Iteration 0, elapsed time: 35.64806733
+./checkpoints/sequential_100000_20221116093427/
+Iteration 1, elapsed time: 33.46952707
+./checkpoints/sequential_100000_20221116093427/
+Iteration 2, elapsed time: 34.40920677
+./checkpoints/sequential_100000_20221116093427/
+Iteration 3, elapsed time: 34.12353426
+./checkpoints/sequential_100000_20221116093427/
+Iteration 4, elapsed time: 34.16716045
+./checkpoints/sequential_100000_20221116093427/
+Student ID: 119010434
+Name: Zhang Qihang
+Assignment 3: N Body Simulation OpenMP Implementation
+./checkpoints/sequential_100000_20221116093721/
+directory creation success
+Iteration 0, elapsed time: 36.18754675
+./checkpoints/sequential_100000_20221116093721/
+slurmstepd: error: *** JOB 36106 ON node25 CANCELLED AT 2022-11-16T09:38:13 DUE TO TIME LIMIT ***
