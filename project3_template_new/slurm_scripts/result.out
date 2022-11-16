@@ -1,384 +1,1005 @@
-./checkpoints/cuda_10000_20221115191934/
+./checkpoints/cuda_1000_20221115193334/
 directory creation success
-Iteration 0, elapsed time: 0.711
-./checkpoints/cuda_10000_20221115191934/
-Iteration 1, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 2, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 3, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 4, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 5, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 6, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 7, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 8, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 9, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 10, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 11, elapsed time: 0.596
-./checkpoints/cuda_10000_20221115191934/
-Iteration 12, elapsed time: 0.598
-./checkpoints/cuda_10000_20221115191934/
-Iteration 13, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 14, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 15, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 16, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 17, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 18, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 19, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 20, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 21, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 22, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 23, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 24, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 25, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 26, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 27, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 28, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 29, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 30, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 31, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 32, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 33, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 34, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 35, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 36, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 37, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 38, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 39, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 40, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 41, elapsed time: 0.603
-./checkpoints/cuda_10000_20221115191934/
-Iteration 42, elapsed time: 0.602
-./checkpoints/cuda_10000_20221115191934/
-Iteration 43, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 44, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 45, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 46, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 47, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 48, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 49, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 50, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 51, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 52, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 53, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 54, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 55, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 56, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 57, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 58, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 59, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 60, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 61, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 62, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 63, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 64, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 65, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 66, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 67, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 68, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 69, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 70, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 71, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 72, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 73, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 74, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 75, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 76, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 77, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 78, elapsed time: 0.601
-./checkpoints/cuda_10000_20221115191934/
-Iteration 79, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 80, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 81, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 82, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 83, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 84, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 85, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 86, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 87, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 88, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 89, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 90, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 91, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 92, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 93, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 94, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 95, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 96, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 97, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 98, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Iteration 99, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115191934/
-Student ID: 119010001
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+./checkpoints/cuda_1000_20221115193334/
+EXECUTE END!Student ID: 119010001
 Name: Your Name
 Assignment 2: N Body Simulation CUDA Implementation
-./checkpoints/cuda_10000_20221115192041/
-directory creation success
-Iteration 0, elapsed time: 0.704
-./checkpoints/cuda_10000_20221115192041/
-Iteration 1, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 2, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 3, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 4, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 5, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 6, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 7, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 8, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 9, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 10, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 11, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 12, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 13, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 14, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 15, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 16, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 17, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 18, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 19, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 20, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 21, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 22, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 23, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 24, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 25, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 26, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 27, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 28, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 29, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 30, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 31, elapsed time: 0.606
-./checkpoints/cuda_10000_20221115192041/
-Iteration 32, elapsed time: 0.608
-./checkpoints/cuda_10000_20221115192041/
-Iteration 33, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 34, elapsed time: 0.612
-./checkpoints/cuda_10000_20221115192041/
-Iteration 35, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 36, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 37, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 38, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 39, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 40, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 41, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 42, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 43, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 44, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 45, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 46, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 47, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 48, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 49, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 50, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 51, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 52, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 53, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 54, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 55, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 56, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 57, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 58, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 59, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 60, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 61, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 62, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 63, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 64, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 65, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 66, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 67, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 68, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 69, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 70, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 71, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 72, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 73, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 74, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 75, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 76, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 77, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 78, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 79, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 80, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 81, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 82, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 83, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 84, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 85, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 86, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-Iteration 87, elapsed time: 0.611
-./checkpoints/cuda_10000_20221115192041/
-slurmstepd: error: *** JOB 33540 ON node23 CANCELLED AT 2022-11-15T19:21:41 DUE TO TIME LIMIT ***

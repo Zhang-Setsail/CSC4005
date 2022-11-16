@@ -139,7 +139,7 @@ void master() {
     int n_block = n_body / block_size + 1;
 
     for (int i = 0; i < n_iteration; i++){
-        std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+        // std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
 
         update_velocity<<<n_block, block_size>>>(device_m, device_x, device_y, device_vx, device_vy, n_body);
         update_position<<<n_block, block_size>>>(device_x, device_y, device_vx, device_vy, n_body);
@@ -147,10 +147,10 @@ void master() {
         cudaMemcpy(x, device_x, n_body * sizeof(double), cudaMemcpyDeviceToHost);
         cudaMemcpy(y, device_y, n_body * sizeof(double), cudaMemcpyDeviceToHost);
 
-        std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
-        std::chrono::duration<double> time_span = t2 - t1;
+        // std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
+        // std::chrono::duration<double> time_span = t2 - t1;
         
-        printf("Iteration %d, elapsed time: %.3f\n", i, time_span);
+        // printf("Iteration %d, elapsed time: %.3f\n", i, time_span);
 
         l.save_frame(x, y);
 
@@ -174,6 +174,7 @@ void master() {
         #endif
 
     }
+    printf("EXECUTE END!");
 
     cudaFree(device_m);
     cudaFree(device_x);
