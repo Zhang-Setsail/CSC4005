@@ -37,25 +37,17 @@ __global__ void update_velocity(double *m, double *x, double *y, double *vx, dou
         double acceleration = 0;
         double acceleration_x = 0;
         double acceleration_y = 0;
-        // double origin_vx, origin_vy;
         double x_proj, y_proj, xy_distance_pow;
         if (x[i] > bound_x || x[i] < 0. || y[i] > bound_y || y[i] < 0.)
         {
             vx[i] = -vx[i];
             vy[i] = -vy[i];
-            // printf("OVER HERE #1\n");
         }
-        // printf("OVER HERE #1\n");
         for (int j = 0; j < n; j++)
         {
             if (i != j)
             {
                 xy_distance_pow = pow(x[i] - x[j], 2.) + pow(y[i] - y[j], 2.);
-                // xy_distance_pow = (x[i] - x[j]) * (x[i] - x[j]) + (y[i] - y[j]) * (y[i] - y[j]);
-                // printf("ans111:%f,\n", pow(x[i] - x[j], 2.));
-                // printf("ans2:%f,\n", pow(y[i] - y[j], 2.));
-                // printf("xi:%f, xj:%f, yi:%f, yj:%f\n", x[i], x[j], y[i], y[j]);
-                // printf("xy_dis:%f,\n", xy_distance_pow);
                 if (xy_distance_pow < 1000 * radius2)
                 {
                     vx[i] = -vx[i];
@@ -69,7 +61,6 @@ __global__ void update_velocity(double *m, double *x, double *y, double *vx, dou
                     x_proj = pow(pow(x[i] - x[j], 2.) / xy_distance_pow, 0.5);
                     y_proj = pow(pow(y[i] - y[j], 2.) / xy_distance_pow, 0.5);
                     acceleration = gravity_const * m[j] / (xy_distance_pow + err);
-                    // printf("acc:%f, xP:%f, yP:%f\n", acceleration, x_proj, y_proj);
                     if (x[i] < x[j])
                     {
                         acceleration_x = acceleration_x + acceleration * x_proj;
@@ -85,10 +76,8 @@ __global__ void update_velocity(double *m, double *x, double *y, double *vx, dou
                 }
             }
         }
-        // printf("acc_X:%f, acc_Y%f\n", acceleration_x, acceleration_y);
         vx[i] = vx[i] + acceleration_x * dt;
         vy[i] = vy[i] + acceleration_y * dt;
-        // printf("v_X:%f, v_Y%f\n\n", vx[i], vy[i]);
     }
 }
 
@@ -139,7 +128,7 @@ void master() {
     int n_block = n_body / block_size + 1;
 
     for (int i = 0; i < n_iteration; i++){
-        // std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+        std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
 
         update_velocity<<<n_block, block_size>>>(device_m, device_x, device_y, device_vx, device_vy, n_body);
         update_position<<<n_block, block_size>>>(device_x, device_y, device_vx, device_vy, n_body);
@@ -147,10 +136,10 @@ void master() {
         cudaMemcpy(x, device_x, n_body * sizeof(double), cudaMemcpyDeviceToHost);
         cudaMemcpy(y, device_y, n_body * sizeof(double), cudaMemcpyDeviceToHost);
 
-        // std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
-        // std::chrono::duration<double> time_span = t2 - t1;
+        std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> time_span = t2 - t1;
         
-        // printf("Iteration %d, elapsed time: %.3f\n", i, time_span);
+        printf("Iteration %d, elapsed time: %.3f\n", i, time_span);
 
         l.save_frame(x, y);
 
@@ -208,9 +197,9 @@ int main(int argc, char *argv[]){
 
     master();
 
-    printf("Student ID: 119010001\n"); // replace it with your student id
-    printf("Name: Your Name\n"); // replace it with your name
-    printf("Assignment 2: N Body Simulation CUDA Implementation\n");
+    printf("Student ID: 119010434\n"); // replace it with your student id
+    printf("Name: Zhang Qihang\n"); // replace it with your name
+    printf("Assignment 3: N Body Simulation CUDA Implementation\n");
 
     return 0;
 

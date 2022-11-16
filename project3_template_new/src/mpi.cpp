@@ -140,9 +140,9 @@ int main(int argc, char *argv[]) {
     }
 
 	if (my_rank == 0){
-		printf("Student ID: 119010001\n"); // replace it with your student id
-		printf("Name: Your Name\n"); // replace it with your name
-		printf("Assignment 2: N Body Simulation MPI Implementation\n");
+		printf("Student ID: 119010434\n"); // replace it with your student id
+		printf("Name: Zhang Qihang\n"); // replace it with your name
+		printf("Assignment 3: N Body Simulation MPI Implementation\n");
 	}
 
 	MPI_Finalize();

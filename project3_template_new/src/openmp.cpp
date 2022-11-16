@@ -196,9 +196,9 @@ int main(int argc, char *argv[]){
     #endif
     master();
 
-    printf("Student ID: 119010001\n"); // replace it with your student id
-    printf("Name: Your Name\n"); // replace it with your name
-    printf("Assignment 2: N Body Simulation OpenMP Implementation\n");
+    printf("Student ID: 119010434\n"); // replace it with your student id
+    printf("Name: Zhang Qihang\n"); // replace it with your name
+    printf("Assignment 3: N Body Simulation OpenMP Implementation\n");
     
     return 0;
 
