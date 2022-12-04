@@ -224,8 +224,8 @@ int main(int argc, char *argv[]) {
     }
 
 	if (my_rank == 0){
-		printf("Student ID: 119010001\n"); // replace it with your student id
-		printf("Name: Your Name\n"); // replace it with your name
+		printf("Student ID: 119010434\n"); // replace it with your student id
+		printf("Name: Zhang Qihang\n"); // replace it with your name
 		printf("Assignment 4: Heat Distribution Simulation MPI Implementation\n");
 	}
 
