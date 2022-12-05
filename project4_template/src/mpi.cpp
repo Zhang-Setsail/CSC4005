@@ -216,7 +216,7 @@ void master() {
     int sub_problem_num = size / world_size;
     float* sub_local_data;
     sub_local_data = new float[sub_problem_num * size];
-    printf("rank:%d, Step4\n", my_rank);
+    // printf("rank:%d, Step4\n", my_rank);
 
 
     initialize(data_odd);
@@ -228,13 +228,13 @@ void master() {
     pixels = new GLubyte[resolution * resolution * 3];
     #endif
     
-    printf("rank:%d, Step5\n", my_rank);
+    // printf("rank:%d, Step5\n", my_rank);
     // MPI_Bcast(data_odd, size*size, MPI_FLOAT, 0, MPI_COMM_WORLD);
     // MPI_Bcast(data_even, size*size, MPI_FLOAT, 0, MPI_COMM_WORLD);
-    printf("rank:%d, Step6\n", my_rank);
+    // printf("rank:%d, Step6\n", my_rank);
     // MPI_Bcast(fire_area, size*size, MPI_BOOL, 0, MPI_COMM_WORLD);
     MPI_Barrier(MPI_COMM_WORLD);
-    printf("rank:%d, Step7\n", my_rank);
+    // printf("rank:%d, Step7\n", my_rank);
 
     int count = 1;
     double total_time = 0;
@@ -242,7 +242,7 @@ void master() {
     // TODO: Send initial distribution to each slave process
     std::chrono::high_resolution_clock::time_point t1;
 
-    while (true) {
+    while (count <= 100) {
         if (my_rank == 0)
         {
             t1 = std::chrono::high_resolution_clock::now();   
@@ -253,7 +253,7 @@ void master() {
         if (count % 2 == 1) {
             update(data_odd, data_even, my_begin_row_id, my_end_row_id);
             maintain_fire(data_even, fire_area, my_begin_row_id, my_end_row_id);
-            maintain_wall(data_even, my_begin_row_id, my_end_row_id);
+            // maintain_wall(data_even, my_begin_row_id, my_end_row_id);
             local_idx = 0;
             for (int i = my_begin_row_id; i < my_end_row_id; i++)
             {
@@ -263,18 +263,14 @@ void master() {
                     sub_local_data[local_idx] = data_even[idx];
                 }   
             }
-            printf("rank:%d, Step8\n", my_rank);
             MPI_Barrier(MPI_COMM_WORLD);
-            printf("rank:%d, Step10\n", my_rank);
             MPI_Gather(sub_local_data, sub_problem_num * size, MPI_FLOAT, data_even, sub_problem_num * size, MPI_FLOAT, 0, MPI_COMM_WORLD);
-            printf("rank:%d, Step9\n", my_rank);
-            MPI_Bcast(data_odd, size*size, MPI_FLOAT, 0, MPI_COMM_WORLD);
             MPI_Bcast(data_even, size*size, MPI_FLOAT, 0, MPI_COMM_WORLD);
             MPI_Barrier(MPI_COMM_WORLD);
         } else {
             update(data_even, data_odd, my_begin_row_id, my_end_row_id);
             maintain_fire(data_odd, fire_area, my_begin_row_id, my_end_row_id);
-            maintain_wall(data_odd, my_begin_row_id, my_end_row_id);
+            // maintain_wall(data_odd, my_begin_row_id, my_end_row_id);
             local_idx = 0;
             for (int i = my_begin_row_id; i < my_end_row_id; i++)
             {
@@ -286,7 +282,7 @@ void master() {
             }
             MPI_Gather(sub_local_data, sub_problem_num * size, MPI_FLOAT, data_odd, sub_problem_num * size, MPI_FLOAT, 0, MPI_COMM_WORLD);
             MPI_Bcast(data_odd, size*size, MPI_FLOAT, 0, MPI_COMM_WORLD);
-            MPI_Bcast(data_even, size*size, MPI_FLOAT, 0, MPI_COMM_WORLD);
+            // MPI_Bcast(data_even, size*size, MPI_FLOAT, 0, MPI_COMM_WORLD);
             MPI_Barrier(MPI_COMM_WORLD);
         }
         // MPI_Gather(sub_local_data, sub_problem_num * size, MPI_FLOAT, data_even, sub_problem_num * size, MPI_FLOAT, 0, MPI_COMM_WORLD);
@@ -297,7 +293,7 @@ void master() {
             std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
             double this_time = std::chrono::duration<double>(t2 - t1).count();
             total_time += this_time;
-            printf("Iteration %d, elapsed time: %.6f\n", count, this_time);  
+            // printf("Iteration %d, elapsed time: %.6f\n", count, this_time);  
         }
         count++;
         if (my_rank == 0)
@@ -314,6 +310,7 @@ void master() {
             #endif
         }
     }
+    printf("Converge after %d iterations, elapsed time: %.6f, average computation time: %.6f\n", count-1, total_time, (double) total_time / (count-1));
 
     delete[] data_odd;
     delete[] data_even;
@@ -336,7 +333,7 @@ int main(int argc, char *argv[]) {
 	MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);
-    printf("rank:%d, Step1\n", my_rank);
+    // printf("rank:%d, Step1\n", my_rank);
 
 
 	if (my_rank == 0) {
@@ -348,9 +345,9 @@ int main(int argc, char *argv[]) {
         glutCreateWindow("Heat Distribution Simulation Sequential Implementation");
         gluOrtho2D(0, resolution, 0, resolution);
         #endif
-        printf("rank:%d, Step2\n", my_rank);
+        // printf("rank:%d, Step2\n", my_rank);
         master();
-        printf("rank:%d, Step3\n", my_rank);
+        // printf("rank:%d, Step3\n", my_rank);
 	} else {
         master();
     }

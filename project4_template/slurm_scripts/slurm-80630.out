@@ -1,0 +1,9 @@
+Student ID: 119010434
+Name: Zhang Qihang
+Assignment 4: Heat Distribution Simulation MPI Implementation
+Student ID: 119010434
+Name: Zhang Qihang
+Assignment 4: Heat Distribution Simulation MPI Implementation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 80630 ON node25 CANCELLED AT 2022-12-05T08:03:00 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 80630.2 ON node25 CANCELLED AT 2022-12-05T08:03:00 DUE TO TIME LIMIT ***

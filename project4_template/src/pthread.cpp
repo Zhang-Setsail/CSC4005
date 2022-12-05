@@ -58,8 +58,7 @@ void generate_fire_area(bool *fire_area){
 
 void maintain_fire(float *data, bool* fire_area) {
     // maintain the temperature of fire
-    int len = size * size;
-    for (int i = 0; i < len; i++){
+    for (int i = 0; i < size * size; i++){
         if (fire_area[i]) data[i] = fire_temp;
     }
 }
@@ -164,11 +163,11 @@ void* worker(void* args) {
     if (count % 2 == 1) {
         update(data_odd, data_even, my_begin_row_id, my_end_row_id);
         maintain_fire(data_even, fire_area);
-        maintain_wall(data_even);
+        // maintain_wall(data_even);
     } else {
         update(data_even, data_odd, my_begin_row_id, my_end_row_id);
         maintain_fire(data_odd, fire_area);
-        maintain_wall(data_odd);
+        // maintain_wall(data_odd);
     }
 
     // printf("This is pthread %d/%d\n", a, b);
@@ -198,20 +197,20 @@ void master(){
     int count = 1;
     double total_time = 0;
 
-    while (true) {
+    pthread_t thds[n_thd]; // thread pool
+    Args args[n_thd]; // arguments for all threads
+
+    for (int thd = 0; thd < n_thd; thd++){
+        args[thd].a = thd;
+        args[thd].b = n_thd;
+        args[thd].data_even_s = data_even;
+        args[thd].data_odd_s = data_odd;
+        args[thd].fire_area_s = fire_area;
+        args[thd].count_m = count;
+    }
+
+    while (count <= 1000) {
         std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
-
-        pthread_t thds[n_thd]; // thread pool
-        Args args[n_thd]; // arguments for all threads
-
-        for (int thd = 0; thd < n_thd; thd++){
-            args[thd].a = thd;
-            args[thd].b = n_thd;
-            args[thd].data_even_s = data_even;
-            args[thd].data_odd_s = data_odd;
-            args[thd].fire_area_s = fire_area;
-            args[thd].count_m = count;
-        }
         // printf("Assign is over\n!");
         // printf("Work is start\n!");
         for (int thd = 0; thd < n_thd; thd++) pthread_create(&thds[thd], NULL, worker, &args[thd]);
@@ -221,7 +220,7 @@ void master(){
         std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
         double this_time = std::chrono::duration<double>(t2 - t1).count();
         total_time += this_time;
-        printf("Iteration %d, elapsed time: %.6f\n", count, this_time);
+        // printf("Iteration %d, elapsed time: %.6f\n", count, this_time);
         count++;
 
         #ifdef GUI

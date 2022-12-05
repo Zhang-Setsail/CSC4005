@@ -1,0 +1,51 @@
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 3.568007, average computation time: 0.003568
+Student ID: 119010434
+Name: Zhang Qihang
+Assignment 4: Heat Distribution Simulation MPI Implementation
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 4.597924, average computation time: 0.004598
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Student ID: 119010434
+Name: Zhang Qihang
+Assignment 4: Heat Distribution Simulation MPI Implementation
+Converge after 1000 iterations, elapsed time: 7.259405, average computation time: 0.007259
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Student ID: 119010434
+Name: Zhang Qihang
+Assignment 4: Heat Distribution Simulation MPI Implementation
+Converge after 1000 iterations, elapsed time: 9.247878, average computation time: 0.009248
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Converge after 1000 iterations, elapsed time: 0.000000, average computation time: 0.000000
+Student ID: 119010434
+Name: Zhang Qihang
+Assignment 4: Heat Distribution Simulation MPI Implementation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 80719 ON node23 CANCELLED AT 2022-12-05T09:28:30 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 80719.4 ON node23 CANCELLED AT 2022-12-05T09:28:30 DUE TO TIME LIMIT ***

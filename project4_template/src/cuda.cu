@@ -4,7 +4,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-// #include <chrono>
+#include <chrono>
 
 #ifdef GUI
 #include <GL/glut.h>
@@ -19,7 +19,7 @@ int block_size = 512; // cuda thread block size
 int size; // problem size
 
 
-__global__ void initialize(float *data) {
+__global__ void initialize(float *data, int size) {
     // TODO: intialize the temperature distribution (in parallelized way)
     int i = blockDim.x * blockIdx.x + threadIdx.x;
     if (i < size * size) {
@@ -28,17 +28,36 @@ __global__ void initialize(float *data) {
 }
 
 
-__global__ void generate_fire_area(bool *fire_area){
+__global__ void generate_fire_area(bool *fire_area, int size){
     // TODO: generate the fire area (in parallelized way)
-    int i = blockDim.x * blockIdx.x + threadIdx.x;
-    if (i < size * size) {
+    int len = size * size;
+    for (int i = 0; i < len; i++) {
         fire_area[i] = 0;
+    }
 
+    float fire1_r2 = fire_size * fire_size;
+    for (int i = 0; i < size; i++){
+        for (int j = 0; j < size; j++){
+            int a = i - size / 2;
+            int b = j - size / 2;
+            int r2 = 0.5 * a * a + 0.8 * b * b - 0.5 * a * b;
+            if (r2 < fire1_r2) fire_area[i * size + j] = 1;
+        }
+    }
+
+    float fire2_r2 = (fire_size / 2) * (fire_size / 2);
+    for (int i = 0; i < size; i++){
+        for (int j = 0; j < size; j++){
+            int a = i - 1 * size / 3;
+            int b = j - 1 * size / 3;
+            int r2 = a * a + b * b;
+            if (r2 < fire2_r2) fire_area[i * size + j] = 1;
+        }
     }
 }
 
 
-__global__ void update(float *data, float *new_data) {
+__global__ void update(float *data, float *new_data, int size) {
     // TODO: update temperature for each point  (in parallelized way)
     int i = blockDim.x * blockIdx.x + threadIdx.x;
     if (i < size * size) {
@@ -55,16 +74,28 @@ __global__ void update(float *data, float *new_data) {
 }
 
 
-__global__ void maintain_wall(float *data) {
+__global__ void maintain_wall(float *data, int size) {
+    // TODO: maintain the temperature of the wall
+    int len = size * size;
+    for (int i = 0; i < size; i++){
+        data[i] = wall_temp;
+        data[len-i-1] = wall_temp;
+    }
+    for (int i = size - 1; i < len; i = i + size)
+    {
+        data[i] = wall_temp;
+        data[i + 1] = wall_temp;
+    }
     // TODO: maintain the temperature of the wall (sequential is enough)
 }
 
 
-__global__ void maintain_fire(float *data, bool *fire_area) {
+__global__ void maintain_fire(float *data, bool *fire_area, int size) {
     // TODO: maintain the temperature of the fire (in parallelized way)
-    // int i = blockDim.x * blockIdx.x + threadIdx.x;
-    // if (i < n) {  
-    // }
+    int i = blockDim.x * blockIdx.x + threadIdx.x;
+    if (i < size * size) {
+        if (fire_area[i]) data[i] = fire_temp;
+    }
 }
 
 
@@ -104,29 +135,29 @@ void master() {
     int n_block_size = size * size / block_size + 1;
     int n_block_resolution = resolution * resolution / block_size + 1;
 
-    initialize<<<n_block_size, block_size>>>(data_odd);
-    generate_fire_area<<<n_block_size, block_size>>>(fire_area);
+    initialize<<<n_block_size, block_size>>>(data_odd, size);
+    generate_fire_area<<<1, 1>>>(fire_area, size);
     
     int count = 1;
     double total_time = 0;
 
-    while (true){
-        // std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+    while (count <= 1000){
+        std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
 
         // TODO: modify the following lines to fit your need.
         if (count % 2 == 1) {
-            update<<<n_block_size, block_size>>>(data_odd, data_even);
-            maintain_fire<<<n_block_size, block_size>>>(data_even, fire_area);
-            maintain_wall<<<1, 1>>>(data_even);
+            update<<<n_block_size, block_size>>>(data_odd, data_even, size);
+            maintain_fire<<<n_block_size, block_size>>>(data_even, fire_area, size);
+            maintain_wall<<<1, 1>>>(data_even, size);
         } else {
-            update<<<n_block_size, block_size>>>(data_even, data_odd);
-            maintain_fire<<<n_block_size, block_size>>>(data_odd, fire_area);
-            maintain_wall<<<1, 1>>>(data_odd);
+            update<<<n_block_size, block_size>>>(data_even, data_odd, size);
+            maintain_fire<<<n_block_size, block_size>>>(data_odd, fire_area, size);
+            maintain_wall<<<1, 1>>>(data_odd, size);
         }
 
-        // std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
-        // double this_time = std::chrono::duration<double>(t2 - t1).count();
-        // total_time += this_time;
+        std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
+        double this_time = std::chrono::duration<double>(t2 - t1).count();
+        total_time += this_time;
         // printf("Iteration %d, elapsed time: %.6f\n", count, this_time);
         count++;
         

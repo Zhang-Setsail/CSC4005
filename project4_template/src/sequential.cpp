@@ -150,7 +150,7 @@ void master(){
     int count = 1;
     double total_time = 0;
 
-    while (true) {
+    while (count <= 1000) {
         std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
 
         if (count % 2 == 1) {
@@ -166,7 +166,7 @@ void master(){
         std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
         double this_time = std::chrono::duration<double>(t2 - t1).count();
         total_time += this_time;
-        printf("Iteration %d, elapsed time: %.6f\n", count, this_time);
+        // printf("Iteration %d, elapsed time: %.6f\n", count, this_time);
         count++;
 
         #ifdef GUI

@@ -89,8 +89,8 @@ void update(float *data, float *new_data) {
 
 void maintain_fire(float *data, bool* fire_area) {
     // maintain the temperature of fire
-    int len = size * size;
-    for (int i = 0; i < len; i++){
+    // int len = size * size;
+    for (int i = 0; i < size * size; i++){
         if (fire_area[i]) data[i] = fire_temp;
     }
 }
@@ -145,7 +145,7 @@ void plot(GLubyte* pixels){
 
 
 void master(){
-    printf("Step1\n");
+    // printf("Step1\n");
 
     float *data_odd;
     float *data_even;
@@ -165,9 +165,9 @@ void master(){
 
     int count = 1;
     double total_time = 0;
-    printf("Step1\n");
+    // printf("Step1\n");
 
-    while (true) {
+    while (count <= 1000) {
         std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
 
         if (count % 2 == 1) {
@@ -177,7 +177,7 @@ void master(){
                 update(data_odd, data_even);
             }
             maintain_fire(data_even, fire_area);
-            maintain_wall(data_even);
+            // maintain_wall(data_even);
         } else {
             omp_set_num_threads(n_omp_threads);
             #pragma omp parallel
@@ -185,13 +185,13 @@ void master(){
                 update(data_even, data_odd);
             }
             maintain_fire(data_odd, fire_area);
-            maintain_wall(data_odd);
+            // maintain_wall(data_odd);
         }
         
         std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
         double this_time = std::chrono::duration<double>(t2 - t1).count();
         total_time += this_time;
-        printf("Iteration %d, elapsed time: %.6f\n", count, this_time);
+        // printf("Iteration %d, elapsed time: %.6f\n", count, this_time);
         count++;
 
         #ifdef GUI
