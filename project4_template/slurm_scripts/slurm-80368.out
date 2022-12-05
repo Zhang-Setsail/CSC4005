@@ -1,0 +1,6 @@
+/var/spool/slurmd/job80368/slurm_script: line 9: 190903 Segmentation fault      (core dumped) ./openmp 1000 4
+/var/spool/slurmd/job80368/slurm_script: line 10: 190905 Segmentation fault      (core dumped) ./openmp 1000 20
+/var/spool/slurmd/job80368/slurm_script: line 11: 190908 Segmentation fault      (core dumped) ./openmp 1000 40
+/var/spool/slurmd/job80368/slurm_script: line 12: 190910 Segmentation fault      (core dumped) ./openmp 1000 80
+/var/spool/slurmd/job80368/slurm_script: line 13: 190913 Segmentation fault      (core dumped) ./openmp 1000 120
+/var/spool/slurmd/job80368/slurm_script: line 14: 190916 Segmentation fault      (core dumped) ./openmp 1000 200

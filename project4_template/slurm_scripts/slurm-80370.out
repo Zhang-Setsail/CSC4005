@@ -1,0 +1,6 @@
+/var/spool/slurmd/job80370/slurm_script: line 9: 151545 Segmentation fault      (core dumped) ./openmp 1000 4
+/var/spool/slurmd/job80370/slurm_script: line 10: 151547 Segmentation fault      (core dumped) ./openmp 1000 20
+/var/spool/slurmd/job80370/slurm_script: line 11: 151550 Segmentation fault      (core dumped) ./openmp 1000 40
+/var/spool/slurmd/job80370/slurm_script: line 12: 151553 Segmentation fault      (core dumped) ./openmp 1000 80
+/var/spool/slurmd/job80370/slurm_script: line 13: 151556 Segmentation fault      (core dumped) ./openmp 1000 120
+/var/spool/slurmd/job80370/slurm_script: line 14: 151558 Segmentation fault      (core dumped) ./openmp 1000 200

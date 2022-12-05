@@ -164,6 +164,7 @@ void master(){
 
     int count = 1;
     double total_time = 0;
+    printf("Step1\n");
 
     while (true) {
         std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
