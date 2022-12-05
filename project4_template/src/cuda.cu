@@ -21,25 +21,37 @@ int size; // problem size
 
 __global__ void initialize(float *data) {
     // TODO: intialize the temperature distribution (in parallelized way)
-    // int i = blockDim.x * blockIdx.x + threadIdx.x;
-    // if (i < n) {
-    // }
+    int i = blockDim.x * blockIdx.x + threadIdx.x;
+    if (i < size * size) {
+        data[i] = wall_temp;
+    }
 }
 
 
 __global__ void generate_fire_area(bool *fire_area){
     // TODO: generate the fire area (in parallelized way)
-    // int i = blockDim.x * blockIdx.x + threadIdx.x;
-    // if (i < n) {
-    // }
+    int i = blockDim.x * blockIdx.x + threadIdx.x;
+    if (i < size * size) {
+        fire_area[i] = 0;
+
+    }
 }
 
 
 __global__ void update(float *data, float *new_data) {
     // TODO: update temperature for each point  (in parallelized way)
-    // int i = blockDim.x * blockIdx.x + threadIdx.x;
-    // if (i < n) {
-    // }
+    int i = blockDim.x * blockIdx.x + threadIdx.x;
+    if (i < size * size) {
+        if (i > size && i < size * (size-1))
+        {
+            float up = data[i - size];
+            float down = data[i + size];
+            float left = data[i - 1];
+            float right = data[i + 1];
+            float new_val = (up + down + left + right) / 4;
+            new_data[i] = new_val;
+        }
+    }
 }
 
 
