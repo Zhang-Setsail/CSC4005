@@ -145,6 +145,7 @@ void plot(GLubyte* pixels){
 
 
 void master(){
+    printf("Step1\n");
 
     float *data_odd;
     float *data_even;
@@ -220,7 +221,7 @@ void master(){
 int main(int argc, char* argv[]) {
     size = atoi(argv[1]);
 
-    n_omp_threads = atoi(argv[3]);
+    n_omp_threads = atoi(argv[2]);
 
     #ifdef GUI
     glutInit(&argc, argv);
